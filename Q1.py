@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScalar, normalize, Binarizer, scale
 
 
+
 df=pd.DataFrame(np.random.randn(4,3),
 index=['a','b','c','d'],
 columns=['C1','C2','C3'])
