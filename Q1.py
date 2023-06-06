@@ -28,3 +28,5 @@ print(binarized_data)
 standardised_data=scale(df,axis=0)
 print(standarised_data)
 
+
+
