@@ -18,6 +18,7 @@ scalar=MinMxScalar(feature_range=(0,1))
 rescaled_data = scalar.fit_transform(df1)
 print(rescaled_data)
 
+
 df2=df.copy()
 
 normalize_data=normalize(df,norm='l1')
